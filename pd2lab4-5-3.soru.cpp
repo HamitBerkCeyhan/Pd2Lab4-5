@@ -9,7 +9,7 @@ int main(void)
 	char ad[20],soyad[20];
 	printf("isim giriniz: ");
 	scanf("%s",&ad);
-    printf("soyisim giriniz: ");
+        printf("soyisim giriniz: ");
 	scanf("%s",&soyad);	
 	i=strlen(ad);
 	j=strlen(soyad);
@@ -22,6 +22,6 @@ int main(void)
 	printf("%s",name);
 	free(name);
 	free(surname);
+	
 	return 0;
-
 }
