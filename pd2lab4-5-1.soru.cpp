@@ -12,17 +12,18 @@ int main()
 	{
 		printf("Yeterli Hafiza Yok");
 	} 
+	else
 	{  
 	    for(int i=0; i<n; ++i)
 	    {
 		printf("Dizi Elemanlarini giriniz:\n ",i+1);
 		scanf("%d",ptr+i);
-          if(*(ptr+i)>eb)
-	      {
-	        eb=*(ptr+i);
-	      }  
-		}	
+                if(*(ptr+i)>eb)
+	        {
+	           eb=*(ptr+i);
+	        }  
+	    }	
 		printf("En Buyuk = %d",eb);
-    }
+        }
 	return 0;
 }
